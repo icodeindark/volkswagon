@@ -1,0 +1,113 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* header starts */
+header{
+    background:linear-gradient(to bottom,rgba(0,0,0,1) 0%,rgba(0,0,0,0)100%);
+    padding: 14px 78px 34px 78px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+header .logo img{
+    width: 59px;
+    color: aliceblue;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    color: white;
+    font-size: 22PX;
+    font-weight: 400;
+    padding: 10px 8px;
+    margin: 0 20px
+}
+.navbar li:last-child a{
+    padding-right: 0;
+}
+.navbar li:hover a{
+    color: #F70142;
+}
+.navbar li a{
+    transition: color ease 0.8s;
+}
+.navbar li.active a{
+    border-bottom: 2px solid #F70142;
+}
+
+/* hero */
+.hero{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.hero img{
+    width: 100%;
+}
+.hero .hero-info{
+    position: absolute;
+    top: 50%;
+    left:78px;
+    transform: translateY(-50%);
+    max-width: 405px;
+    line-height: 74px;
+}
+.hero .hero-info h1{
+    color: white;
+    font-size: 74px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.hero .hero-info h1 span{
+    font-size:38px;
+    font-weight: 400;
+    display: block;
+}
+.hero .hero-info .cta-btn{
+    color:white;
+    background: #F70142;
+    font-weight: 700;
+    font-size: 21px;
+    padding:12px 30px;
+    border-radius: 24px;
+    transition: background-color ease 0.5s;
+}
+.hero .hero-info .cta-btn:hover{
+    background-color: black;
+}
+.hero .swiper-pagination{
+    bottom: 120px;
+}
+.hero .swiper-pagination .swiper-pagination-bullet {
+    width: 23px;
+    height: 23px;
+    background: transparent;
+    border: 2px solid white;
+    opacity: 1;
+}
+.hero .swiper-pagination .swiper-pagination-bullet-active{
+    border:2px solid #F70142;
+}

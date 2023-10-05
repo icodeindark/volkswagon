@@ -1,0 +1,48 @@
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="hero">
+                    <img src="./images/background/polo.jpg" alt="bg-image">
+                    <div class="hero-info">
+                        <h1><span>Welcome to </span>
+                            volkswagen 
+                            <span>Cochin</span></h1>
+                        <a class="cta-btn" href="">explore more</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="hero">
+                    <img src="./images/background/polo.jpg" alt="bg-image">
+                    <div class="hero-info">
+                        <h1><span>Welcome to </span>
+                            volkswagen 
+                            <span>Cochin</span></h1>
+                        <a class="cta-btn" href="">explore more</a>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="hero">
+                    <img src="./images/background/polo.jpg" alt="bg-image">
+                    <div class="hero-info">
+                        <h1><span>Welcome to </span>
+                            volkswagen 
+                            <span>Cochin</span></h1>
+                        <a class="cta-btn" href="">explore more</a>
+                    </div>
+            </div>
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
